@@ -1,0 +1,19 @@
+{
+  "name": "build-your-own-react",
+  "version": "1.0.0",
+  "description": "Build you own React according to https://pomb.us/build-your-own-react",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangshunnn/build-your-own-react.git"
+  },
+  "keywords": [
+    "react",
+    "build-your-own-react"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangshunnn/build-your-own-react/issues"
+  },
+  "homepage": "https://github.com/wangshunnn/build-your-own-react#readme"
+}

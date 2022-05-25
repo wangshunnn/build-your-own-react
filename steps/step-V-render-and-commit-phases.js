@@ -19,6 +19,7 @@ function commitWork(fiber) {
 
 /**
  * render只负责遍历生成wipRoot(Fiber Tree), 不涉及挂载DOM.
+ * wipRoot means work in progress root.
  */
 function render(element, container) {
     wipRoot = {

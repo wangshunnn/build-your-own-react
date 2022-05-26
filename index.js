@@ -184,7 +184,8 @@ function useState(initial) {
 
     const actions = oldHook ? oldHook.queue : [];
     actions.forEach(action => {
-        hook.state = action(hook.state);
+        // you can use setState(1) or setState(c => c + 1)
+        hook.state = typeof action === "function" ? action(hook.state) : action;
     });
 
     const setState = action => {

@@ -74,7 +74,7 @@ function updateFunctionComponent(fiber) {
     // fiber = Didact.createElement(App, {
     //     name: "foo",
     // })
-    // ==> fiber.tyle = 'App', fiber.props = {name: "foo"}
+    // ==> fiber.tyle = 'ƒ App() {}', fiber.props = {name: "foo"}
     const children = [fiber.type(fiber.props)]
     reconcileChildren(fiber, children)
 }
